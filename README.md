@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -112,7 +113,7 @@
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
            
-            <div class="grid grid gap-8 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
                     <div class="bg-primary bg-opacity-10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
                         <i class="fas fa-dna text-primary text-xl"></i>
@@ -285,11 +286,11 @@
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
            
-            <div class="grid grid gap-8 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Product 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">ESSENTIAL OIL</div>
                     </div>
                     <div class="p-6">
@@ -315,10 +316,10 @@
                 <!-- Product 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/71PbwAYEOFL._AC_UL320_.jpg" alt="Women's Rogaine" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://m.media-amazon.com/images/I/71PbwAYEOFL._AC_UL320_.jpg" alt="Women's Rogaine" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">HERB</div>
                     </div>
-                    <div class="p-6 flex flex-col justify-between h-full">
+                    <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Extra Strength Saw Palmetto Extract</h3>
                         <div class="flex items-center mb-2">
                             <div class="flex text-yellow-400">
@@ -341,10 +342,10 @@
                 <!-- Product 3 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/618yn5srweL.jpg" alt="Hair Growth Vitamins" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://m.media-amazon.com/images/I/618yn5srweL.jpg" alt="Hair Growth Vitamins" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">TECHNOLOGY</div>
                     </div>
-                    <div class="p-6 flex flex-col justify-between h-full">
+                    <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Titanium Microneedles Derma Roller</h3>
                         <div class="flex items-center mb-2">
                             <div class="flex text-yellow-400">
@@ -367,10 +368,10 @@
                 <!-- Product 4 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/61CxI4PidHL._AC_UL320_.jpg" alt="Laser Cap" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://m.media-amazon.com/images/I/61CxI4PidHL._AC_UL320_.jpg" alt="Laser Cap" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">SUPPLEMENT</div>
                     </div>
-                    <div class="p-6 flex flex-col justify-between h-full">
+                    <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Biotin 10000mcg Supplement</h3>
                         <div class="flex items-center mb-2">
                             <div class="flex text-yellow-400">
@@ -396,10 +397,10 @@
                 <!-- Product 5 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/71bMtJeNGHL._AC_UL320_.jpg" alt="DHT Blocker Shampoo" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://m.media-amazon.com/images/I/71bMtJeNGHL._AC_UL320_.jpg" alt="DHT Blocker Shampoo" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">SHAMPOO</div>
                     </div>
-                    <div class="p-6 flex flex-col justify-between h-full">
+                    <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">PURA D'OR Hair Thinning Therapy Shampoo</h3>
                         <div class="flex items-center mb-2">
                             <div class="flex text-yellow-400">
@@ -422,10 +423,10 @@
                 <!-- Product 6 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-auto max-h-60 object-cover mx-auto">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">TOOL</div>
                     </div>
-                    <div class="p-6 flex flex-col justify-between h-full">
+                    <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2">Silicone Scalp Massager</h3>
                         <div class="flex items-center mb-2">
                             <div class="flex text-yellow-400">
