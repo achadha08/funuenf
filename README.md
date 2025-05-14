@@ -451,4 +451,410 @@
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Personalized Hair Loss Solution Finder</h2>
             <p class="text-center text-gray-600 mb-12">Answer a few questions to get customized product recommendations.</p>
             
-            <div class="bg-
+
+<div class="flex justify-between mt-8">
+    <button id="quiz-prev" class="bg-gray-200 text-dark px-6 py-2 rounded-lg hover:bg-gray-300 transition hidden">Previous</button>
+    <button id="quiz-next" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition ml-auto">Next</button>
+</div>
+
+<!-- FAQ Section -->
+<section id="faq" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <h2 class="text-3xl font-bold text-center text-dark mb-12">Frequently Asked Questions</h2>
+        
+        <div class="space-y-4">
+            <!-- FAQ Item 1 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">How can I tell if I'm losing too much hair?</h3>
+                    <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content px-6 pb-6 hidden">
+                    <p class="text-gray-600">It's normal to lose 50-150 hairs per day. Signs of excessive hair loss include:</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-600">
+                        <li>More hair than usual in your brush, shower drain, or pillow</li>
+                        <li>Visible thinning or widening part</li>
+                        <li>Receding hairline or bald spots</li>
+                        <li>Hair that comes out easily when gently pulled</li>
+                    </ul>
+                    <p class="mt-3 text-gray-600">If you're concerned, consult a dermatologist for proper diagnosis.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 2 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">What's the difference between male and female pattern hair loss?</h3>
+                    <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content px-6 pb-6 hidden">
+                    <p class="text-gray-600">While both are forms of androgenetic alopecia (hereditary hair loss), they present differently:</p>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Male Pattern Baldness</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                                <li>Typically begins with receding hairline at temples</li>
+                                <li>Progresses to thinning at the crown</li>
+                                <li>Often results in horseshoe-shaped hair pattern</li>
+                                <li>Can begin as early as late teens</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Female Pattern Hair Loss</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                                <li>Usually begins with widening part</li>
+                                <li>General thinning over the entire scalp</li>
+                                <li>Hairline typically remains intact</li>
+                                <li>Often begins around menopause but can start earlier</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 3 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">How long does it take to see results from hair loss treatments?</h3>
+                    <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content px-6 pb-6 hidden">
+                    <p class="text-gray-600">Hair growth is a slow process, and results vary by treatment:</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-600">
+                        <li><strong>Minoxidil:</strong> 3-6 months for reduced shedding, 6-12 months for visible regrowth</li>
+                        <li><strong>Finasteride:</strong> 3-6 months to stop hair loss, 6-12 months for regrowth</li>
+                        <li><strong>Laser therapy:</strong> 3-6 months for reduced shedding, 6-12 months for thickening</li>
+                        <li><strong>Nutritional supplements:</strong> 3-6 months for improved hair quality</li>
+                    </ul>
+                    <p class="mt-3 text-gray-600">Consistency is key—most treatments require ongoing use to maintain results.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 4 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Are there any side effects to common hair loss treatments?</h3>
+                    <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content px-6 pb-6 hidden">
+                    <p class="text-gray-600">Possible side effects vary by treatment:</p>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Minoxidil (Rogaine)</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                                <li>Scalp irritation or dryness</li>
+                                <li>Temporary increased shedding when first starting</li>
+                                <li>Unwanted facial hair (in women)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-primary mb-2">Finasteride (Propecia)</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                                <li>Decreased libido (rare)</li>
+                                <li>Erectile dysfunction (rare)</li>
+                                <li>Not approved for women of childbearing age</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-gray-600">Natural treatments typically have fewer side effects but may be less effective.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 5 -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Can hair loss be reversed naturally without medication?</h3>
+                    <i class="fas fa-chevron-down text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content px-6 pb-6 hidden">
+                    <p class="text-gray-600">While natural methods may help, their effectiveness depends on the cause of hair loss:</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-600">
+                        <li><strong>Nutrition:</strong> Correcting deficiencies in iron, protein, biotin, zinc, and vitamin D can improve hair health</li>
+                        <li><strong>Scalp massage:</strong> May increase blood flow to follicles</li>
+                        <li><strong>Essential oils:</strong> Some studies suggest rosemary oil may be as effective as minoxidil for some types of hair loss</li>
+                        <li><strong>Stress reduction:</strong> Can help with stress-related shedding</li>
+                    </ul>
+                    <p class="mt-3 text-gray-600">For genetic hair loss, natural methods may slow progression but typically can't fully reverse it.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="py-12 bg-primary text-white">
+    <div class="container mx-auto px-4 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold mb-4">Stay Updated on Hair Loss Solutions</h2>
+        <p class="text-xl mb-8">Subscribe to receive the latest research, product reviews, and exclusive discounts.</p>
+        <form class="flex flex-col sm:flex-row max-w-md mx-auto sm:max-w-xl">
+            <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded sm:rounded-r-none mb-2 sm:mb-0 text-dark">
+            <button type="submit" class="bg-dark text-white px-6 py-3 rounded sm:rounded-l-none hover:bg-opacity-90 transition">Subscribe</button>
+        </form>
+        <p class="text-sm mt-4 opacity-80">We respect your privacy. Unsubscribe at any time.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-12">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center space-x-2 mb-4">
+                    <i class="fas fa-cut text-primary text-2xl"></i>
+                    <h3 class="text-xl font-bold">HairMaxx<span class="text-primary">Solutions</span></h3>
+                </div>
+                <p class="text-gray-400">Providing science-backed information and product recommendations to help you combat hair loss effectively.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#causes" class="text-gray-400 hover:text-white transition">Causes of Hair Loss</a></li>
+                    <li><a href="#solutions" class="text-gray-400 hover:text-white transition">Treatment Options</a></li>
+                    <li><a href="#products" class="text-gray-400 hover:text-white transition">Recommended Products</a></li>
+                    <li><a href="#faq" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white transition">Hair Loss Studies</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition">Expert Interviews</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition">Success Stories</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                <div class="flex space-x-4 mb-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <p class="text-gray-400">Email: info@haircaresolutions.com</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-400 mb-4 md:mb-0">© 2025 HairMaxx Solutions. All rights reserved.</p>
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white transition">Disclaimer</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu toggle
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    });
+
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+        button.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('i');
+            
+            // Toggle content
+            content.classList.toggle('hidden');
+            
+            // Rotate icon
+            if (content.classList.contains('hidden')) {
+                icon.classList.remove('rotate-180');
+            } else {
+                icon.classList.add('rotate-180');
+            }
+        });
+    });
+
+    // Hair quiz functionality
+    const quizSteps = document.querySelectorAll('.quiz-step');
+    const nextButton = document.getElementById('quiz-next');
+    const prevButton = document.getElementById('quiz-prev');
+    const progressBar = document.getElementById('quiz-progress-bar');
+    const progressText = document.getElementById('quiz-progress');
+    const hairTypeBtns = document.querySelectorAll('.hair-type-btn');
+    const retakeQuizBtn = document.getElementById('retake-quiz');
+    
+    let currentStep = 1;
+    const totalSteps = 5;
+    const answers = {};
+    
+    // Update progress
+    function updateProgress() {
+        const progressPercent = (currentStep / totalSteps) * 100;
+        progressBar.style.width = `${progressPercent}%`;
+        progressText.textContent = `${currentStep}/${totalSteps}`;
+        
+        // Show/hide prev button
+        if (currentStep > 1) {
+            prevButton.classList.remove('hidden');
+        } else {
+            prevButton.classList.add('hidden');
+        }
+        
+        // Change next button text on last step
+        if (currentStep === totalSteps) {
+            nextButton.textContent = 'Get Results';
+        } else {
+            nextButton.textContent = 'Next';
+        }
+    }
+    
+    // Show current step
+    function showStep(step) {
+        quizSteps.forEach(stepElement => {
+            stepElement.classList.add('hidden');
+            stepElement.classList.remove('active');
+        });
+        
+        const currentStepElement = document.querySelector(`.quiz-step[data-step="${step}"]`);
+        currentStepElement.classList.remove('hidden');
+        currentStepElement.classList.add('active');
+        
+        updateProgress();
+    }
+    
+    // Next button click
+    nextButton.addEventListener('click', function() {
+        if (currentStep === totalSteps) {
+            // Get results
+            showResults();
+        } else {
+            // Go to next step
+            currentStep++;
+            showStep(currentStep);
+        }
+    });
+    
+    // Previous button click
+    prevButton.addEventListener('click', function() {
+        currentStep--;
+        showStep(currentStep);
+    });
+    
+    // Hair type button selection
+    hairTypeBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons in this step
+            const currentStepElement = document.querySelector(`.quiz-step[data-step="${currentStep}"]`);
+            currentStepElement.querySelectorAll('.hair-type-btn').forEach(button => {
+                button.classList.remove('active', 'border-primary', 'bg-primary', 'text-white');
+                button.classList.add('border-gray-200');
+            });
+            
+            // Add active class to clicked button
+            this.classList.add('active', 'border-primary', 'bg-primary', 'text-white');
+            this.classList.remove('border-gray-200');
+            
+            // Store answer
+            const questionKey = `question${currentStep}`;
+            answers[questionKey] = this.dataset.answer;
+        });
+    });
+    
+    // Retake quiz
+    retakeQuizBtn.addEventListener('click', function() {
+        currentStep = 1;
+        showStep(currentStep);
+        document.getElementById('quiz-results').classList.add('hidden');
+        nextButton.classList.remove('hidden');
+        prevButton.classList.add('hidden');
+    });
+    
+    // Show results
+    function showResults() {
+        // Hide all steps
+        quizSteps.forEach(step => {
+            step.classList.add('hidden');
+            step.classList.remove('active');
+        });
+        
+        // Show results
+        const resultsElement = document.getElementById('quiz-results');
+        resultsElement.classList.remove('hidden');
+        resultsElement.classList.add('active');
+        
+        // Hide next button
+        nextButton.classList.add('hidden');
+        
+        // Generate recommendations based on answers
+        const recommendationContent = document.getElementById('recommendation-content');
+        
+        // Simple recommendation logic (in a real app, this would be more sophisticated)
+        let recommendationHTML = '';
+        
+        if (answers.question3 === 'male') {
+            recommendationHTML = `
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">1</div>
+                        <div>
+                            <h4 class="font-bold">Men's Rogaine 5% Minoxidil Foam</h4>
+                            <p class="text-gray-600">Our top pick for men with hereditary hair loss. Easy to apply and clinically proven to regrow hair.</p>
+                            <a href="https://www.amazon.com/Rogaine-Minoxidil-Regrowth-Treatment-2-11-Ounce/dp/B0026HDURA/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">2</div>
+                        <div>
+                            <h4 class="font-bold">PURA D'OR Anti-Thinning Shampoo</h4>
+                            <p class="text-gray-600">Gentle, DHT-blocking shampoo that helps reduce hair thinning while cleansing your scalp.</p>
+                            <a href="https://www.amazon.com/PURA-DOR-Hair-Thinning-Therapy-Shampoo/dp/B005CQMV3A/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">3</div>
+                        <div>
+                            <h4 class="font-bold">Nutrafol Men's Hair Growth Supplement</h4>
+                            <p class="text-gray-600">Comprehensive nutritional support with clinically effective ingredients for men's hair health.</p>
+                            <a href="https://www.amazon.com/Nutrafol-Men-Hair-Growth-Supplement/dp/B01N7KQ8Q3/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else {
+            recommendationHTML = `
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">1</div>
+                        <div>
+                            <h4 class="font-bold">Women's Rogaine 5% Minoxidil Solution</h4>
+                            <p class="text-gray-600">The only FDA-approved topical treatment clinically proven to regrow hair in women.</p>
+                            <a href="https://www.amazon.com/Rogaine-Womens-Hair-Regrowth-Treatment/dp/B001ECQ6Z2/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">2</div>
+                        <div>
+                            <h4 class="font-bold">Nutrafol Women's Hair Growth Supplement</h4>
+                            <p class="text-gray-600">Doctor-recommended supplement that targets root causes of hair thinning in women.</p>
+                            <a href="https://www.amazon.com/Nutrafol-Women-Hair-Growth-Supplement/dp/B01N7KQ8Q3/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 flex-shrink-0">3</div>
+                        <div>
+                            <h4 class="font-bold">MAXSOFT Scalp Massager Shampoo Brush</h4>
+                            <p class="text-gray-600">Gentle silicone bristles stimulate blood flow to hair follicles while cleansing your scalp.</p>
+                            <a href="https://www.amazon.com/MAXSOFT-Scalp-Massager-Shampoo-Brush/dp/B07G9JQ5B4/" target="_blank" class="text-primary hover:underline inline-block mt-2">View on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        recommendationContent.innerHTML = recommendationHTML;
+    }
+    
+    // Animate progress bar on page load
+    window.addEventListener('load', function() {
+        setTimeout(() => {
+            const progressBar = document.getElementById('progress-bar');
+            progressBar.style.width = '100%';
+        }, 300);
+    });
+</script>
