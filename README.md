@@ -112,7 +112,7 @@
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid gap-8 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
                     <div class="bg-primary bg-opacity-10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
                         <i class="fas fa-dna text-primary text-xl"></i>
@@ -285,7 +285,7 @@
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid gap-8 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Product 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
