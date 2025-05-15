@@ -40,7 +40,7 @@
 <body class="bg-light font-sans">
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="w-full px-4 md:px-8 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-2">
                 <i class="fas fa-cut text-primary text-2xl"></i>
                 <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
@@ -66,7 +66,7 @@
 
     <!-- Hero Section -->
     <section class="hero-gradient text-white py-16 md:py-24">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+        <div class="w-full px-4 md:px-8 flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
                 <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
@@ -84,7 +84,7 @@
 
     <!-- Hair Loss Stats -->
     <section class="py-12 bg-white">
-        <div class="container mx-auto px-4">
+        
             <h2 class="text-3xl font-bold text-center text-dark mb-12">Understanding Hair Loss</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-light p-6 rounded-lg shadow text-center">
@@ -109,7 +109,7 @@
 
     <!-- Causes Section -->
     <section id="causes" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-4 md:px-8">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
            
@@ -163,7 +163,7 @@
 
     <!-- Solutions Section -->
     <section id="solutions" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-4 md:px-8">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Effective Solutions for Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">From medical treatments to lifestyle changes, explore proven methods to combat hair loss.</p>
            
@@ -282,7 +282,7 @@
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-4 md:px-8">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
            
@@ -456,7 +456,7 @@
 
     <!-- Hair Quiz Section -->
     <section id="quiz" class="py-16 bg-white">
-        <div class="container mx-auto px-4 max-w-4xl">
+        <div class="w-full px-4 md:px-8 max-w-4xl">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Personalized Hair Loss Solution Finder</h2>
             <p class="text-center text-gray-600 mb-12">Answer a few questions to get customized product recommendations.</p>
            
@@ -590,7 +590,7 @@
 
     <!-- FAQ Section -->
     <section id="faq" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 max-w-4xl">
+        <div class="w-full px-4 md:px-8 max-w-4xl">
             <h2 class="text-3xl font-bold text-center text-dark mb-12">Frequently Asked Questions</h2>
            
             <div class="space-y-4">
@@ -715,7 +715,7 @@
 
     <!-- Newsletter -->
     <section class="py-12 bg-primary text-white">
-        <div class="container mx-auto px-4 max-w-4xl text-center">
+        <div class="w-full px-4 md:px-8 max-w-4xl text-center">
             <h2 class="text-3xl font-bold mb-4">Stay Updated on Hair Loss Solutions</h2>
             <p class="text-xl mb-8">Subscribe to receive the latest research, product reviews, and exclusive discounts.</p>
             <form class="flex flex-col sm:flex-row max-w-md mx-auto sm:max-w-xl">
@@ -729,7 +729,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-12">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-4 md:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
