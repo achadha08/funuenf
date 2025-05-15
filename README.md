@@ -1,9 +1,52 @@
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HairMaxx Solutions - Full Width</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3b82f6',
+            secondary: '#10b981',
+            dark: '#1e293b',
+            light: '#f8fafc'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .hair-type-btn.active {
+      background-color: #3b82f6;
+      color: white;
+    }
+    .progress-bar {
+      transition: width 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-light font-sans">
+  <div class="w-full">
+    <!-- Full page content inserted below -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HairMaxx Solutions - Full Width</title>
+    <title>HairMaxx Solutions - Fight Hair Loss Effectively</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -30,44 +73,54 @@
             background-color: #3b82f6;
             color: white;
         }
+        .progress-bar {
+            transition: width 0.5s ease-in-out;
+        }
     </style>
 </head>
 <body class="bg-light font-sans">
-
-<header class="bg-white shadow-md sticky top-0 z-50 w-full">
-    <div class="w-full px-8 py-3 flex justify-between items-center">
-        <div class="flex items-center space-x-2">
-            <i class="fas fa-cut text-primary text-2xl"></i>
-            <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-cut text-primary text-2xl"></i>
+                <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
+                <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
+                <a href="#products" class="text-dark hover:text-primary transition">Products</a>
+                <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
+            </nav>
+            <button class="md:hidden text-dark" id="menu-toggle">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
         </div>
-        <nav class="hidden md:flex space-x-8">
-            <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
-            <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
-            <a href="#products" class="text-dark hover:text-primary transition">Products</a>
-            <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
-        </nav>
-        <button class="md:hidden text-dark" id="menu-toggle">
-            <i class="fas fa-bars text-2xl"></i>
-        </button>
-    </div>
-</header>
+        <div class="md:hidden hidden bg-white py-2 px-4 shadow-md" id="mobile-menu">
+            <a href="#causes" class="block py-2 text-dark hover:text-primary transition">Causes</a>
+            <a href="#solutions" class="block py-2 text-dark hover:text-primary transition">Solutions</a>
+            <a href="#products" class="block py-2 text-dark hover:text-primary transition">Products</a>
+            <a href="#faq" class="block py-2 text-dark hover:text-primary transition">FAQ</a>
+        </div>
+    </header>
 
-<section class="hero-gradient text-white py-16">
-    <div class="w-full px-8 flex flex-col md:flex-row items-center justify-between">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
-            <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
-            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
-                <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
+                <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
+                    <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=">
             </div>
         </div>
-        <div class="md:w-1/2 flex justify-center">
-            <img class="rounded-lg shadow-lg" src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=">
-        </div>
-    </div>
-</section>
-
+    </section>
 
 
     <!-- Hair Loss Stats -->
@@ -984,4 +1037,10 @@
     </script>
 </body>
 </html>
+
+
+  </div>
+</body>
+</html>
+
 
