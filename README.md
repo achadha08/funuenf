@@ -34,9 +34,37 @@
     .progress-bar {
       transition: width 0.5s ease-in-out;
     }
+    .force-full-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+section, header, footer {
+    width: 100vw !important;
+}
+
   </style>
+  
 </head>
-<body class="bg-light font-sans">
+<body class="bg-light font-sans">   
+  <div class="force-full-width">   
   <div class="w-full">
     <!-- Full page content inserted below -->
     <!DOCTYPE html>
@@ -76,9 +104,36 @@
         .progress-bar {
             transition: width 0.5s ease-in-out;
         }
+      .force-full-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+section, header, footer {
+    width: 100vw !important;
+}
+
     </style>
 </head>
-<body class="bg-light font-sans">
+<body class="bg-light font-sans">   
+  <div class="force-full-width">   
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
