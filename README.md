@@ -107,7 +107,7 @@
 
     <!-- Hero Section -->
     <section class="hero-gradient text-white py-16 md:py-24">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+        <div class="w-full max-w-none mx-0 px-0 flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
                 <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
