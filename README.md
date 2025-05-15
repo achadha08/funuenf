@@ -1044,3 +1044,5 @@
 </html>
 
 
+// remove .container from the #inner_wrapper div
+document.querySelector("#inner_wrapper > div").classList.remove("container");
