@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HairMaxx Solutions - Fight Hair Loss Effectively</title>
+    <title>HairMaxx Solutions - Full Width</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -32,59 +30,49 @@
             background-color: #3b82f6;
             color: white;
         }
-        .progress-bar {
-            transition: width 0.5s ease-in-out;
-        }
     </style>
 </head>
 <body class="bg-light font-sans">
-    <!-- Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="w-full px-4 md:px-8 py-3 flex justify-between items-center">
-            <div class="flex items-center space-x-2">
-                <i class="fas fa-cut text-primary text-2xl"></i>
-                <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
-            </div>
-            <nav class="hidden md:flex space-x-8">
-                <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
-                <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
-                <a href="#products" class="text-dark hover:text-primary transition">Products</a>
-                <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
-            </nav>
-            <button class="md:hidden text-dark" id="menu-toggle">
-                <i class="fas fa-bars text-2xl"></i>
-            </button>
-        </div>
-        <div class="md:hidden hidden bg-white py-2 px-4 shadow-md" id="mobile-menu">
-            <a href="#causes" class="block py-2 text-dark hover:text-primary transition">Causes</a>
-            <a href="#solutions" class="block py-2 text-dark hover:text-primary transition">Solutions</a>
-            <a href="#products" class="block py-2 text-dark hover:text-primary transition">Products</a>
-            <a href="#faq" class="block py-2 text-dark hover:text-primary transition">FAQ</a>
-        </div>
-    </header>
 
+<header class="bg-white shadow-md sticky top-0 z-50 w-full">
+    <div class="w-full px-8 py-3 flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+            <i class="fas fa-cut text-primary text-2xl"></i>
+            <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
+        </div>
+        <nav class="hidden md:flex space-x-8">
+            <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
+            <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
+            <a href="#products" class="text-dark hover:text-primary transition">Products</a>
+            <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
+        </nav>
+        <button class="md:hidden text-dark" id="menu-toggle">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero-gradient text-white py-16 md:py-24">
-        <div class="w-full px-4 md:px-8 flex flex-col md:flex-row items-center">
-            <div class="md:w-1/2 mb-8 md:mb-0">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
-                <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
-                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
-                    <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
-                </div>
-            </div>
-            <div class="md:w-1/2 flex justify-center">
-                <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=">
+<section class="hero-gradient text-white py-16">
+    <div class="w-full px-8 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
+            <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
+                <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
             </div>
         </div>
-    </section>
+        <div class="md:w-1/2 flex justify-center">
+            <img class="rounded-lg shadow-lg" src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=">
+        </div>
+    </div>
+</section>
+
 
 
     <!-- Hair Loss Stats -->
     <section class="py-12 bg-white">
-        
+        <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-dark mb-12">Understanding Hair Loss</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-light p-6 rounded-lg shadow text-center">
@@ -109,7 +97,7 @@
 
     <!-- Causes Section -->
     <section id="causes" class="py-16 bg-gray-50">
-        <div class="w-full px-4 md:px-8">
+        <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
            
@@ -163,7 +151,7 @@
 
     <!-- Solutions Section -->
     <section id="solutions" class="py-16 bg-white">
-        <div class="w-full px-4 md:px-8">
+        <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Effective Solutions for Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">From medical treatments to lifestyle changes, explore proven methods to combat hair loss.</p>
            
@@ -282,7 +270,7 @@
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
-        <div class="w-full px-4 md:px-8">
+        <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
            
@@ -290,7 +278,7 @@
                 <!-- Product 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-cover">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">ESSENTIAL OIL</div>
                     </div>
                     <div class="p-6">
@@ -316,7 +304,7 @@
                 <!-- Product 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/71PbwAYEOFL._AC_UL320_.jpg" alt="Women's Rogaine" class="w-full h-64 object-cover">
+                        <img src="https://m.media-amazon.com/images/I/71PbwAYEOFL._AC_UL320_.jpg" alt="Women's Rogaine" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">HERB</div>
                     </div>
                     <div class="p-6">
@@ -342,7 +330,7 @@
                 <!-- Product 3 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/618yn5srweL.jpg" alt="Hair Growth Vitamins" class="w-full h-64 object-cover">
+                        <img src="https://m.media-amazon.com/images/I/618yn5srweL.jpg" alt="Hair Growth Vitamins" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">TECHNOLOGY</div>
                     </div>
                     <div class="p-6">
@@ -368,7 +356,7 @@
                 <!-- Product 4 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/61CxI4PidHL._AC_UL320_.jpg" alt="Laser Cap" class="w-full h-64 object-cover">
+                        <img src="https://m.media-amazon.com/images/I/61CxI4PidHL._AC_UL320_.jpg" alt="Laser Cap" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">SUPPLEMENT</div>
                     </div>
                     <div class="p-6">
@@ -397,7 +385,7 @@
                 <!-- Product 5 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://m.media-amazon.com/images/I/71bMtJeNGHL._AC_UL320_.jpg" alt="DHT Blocker Shampoo" class="w-full h-64 object-cover">
+                        <img src="https://m.media-amazon.com/images/I/71bMtJeNGHL._AC_UL320_.jpg" alt="DHT Blocker Shampoo" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">SHAMPOO</div>
                     </div>
                     <div class="p-6">
@@ -423,7 +411,7 @@
                 <!-- Product 6 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
                     <div class="relative">
-                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-64 object-cover">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-64 object-contain">
                         <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">TOOL</div>
                     </div>
                     <div class="p-6">
@@ -456,7 +444,7 @@
 
     <!-- Hair Quiz Section -->
     <section id="quiz" class="py-16 bg-white">
-        <div class="w-full px-4 md:px-8 max-w-4xl">
+        <div class="container mx-auto px-4 max-w-4xl">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Personalized Hair Loss Solution Finder</h2>
             <p class="text-center text-gray-600 mb-12">Answer a few questions to get customized product recommendations.</p>
            
@@ -590,7 +578,7 @@
 
     <!-- FAQ Section -->
     <section id="faq" class="py-16 bg-gray-50">
-        <div class="w-full px-4 md:px-8 max-w-4xl">
+        <div class="container mx-auto px-4 max-w-4xl">
             <h2 class="text-3xl font-bold text-center text-dark mb-12">Frequently Asked Questions</h2>
            
             <div class="space-y-4">
@@ -715,7 +703,7 @@
 
     <!-- Newsletter -->
     <section class="py-12 bg-primary text-white">
-        <div class="w-full px-4 md:px-8 max-w-4xl text-center">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
             <h2 class="text-3xl font-bold mb-4">Stay Updated on Hair Loss Solutions</h2>
             <p class="text-xl mb-8">Subscribe to receive the latest research, product reviews, and exclusive discounts.</p>
             <form class="flex flex-col sm:flex-row max-w-md mx-auto sm:max-w-xl">
@@ -729,7 +717,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-12">
-        <div class="w-full px-4 md:px-8">
+        <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
