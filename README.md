@@ -35,21 +35,25 @@
       transition: width 0.5s ease-in-out;
     }
     .force-full-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 section, header, footer {
@@ -61,7 +65,7 @@ section, header, footer {
 </head>
 <body class="bg-light font-sans">   
   <div class="force-full-width">   
-  <div class="container mx-auto px-4">
+  <div class="w-full">
     <!-- Full page content inserted below -->
     <!DOCTYPE html>
 <html lang="en">
@@ -101,21 +105,25 @@ section, header, footer {
             transition: width 0.5s ease-in-out;
         }
       .force-full-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 section, header, footer {
