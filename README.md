@@ -21,51 +21,81 @@
     };
   </script>
   <style>
+    /* Reset default margins and paddings */
+    html, body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+
+    /* Force full-width behavior */
+    .force-full-width {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    /* Ensure all sections and wrappers span full width */
+    section, header, footer, .w-full {
+      width: 100vw !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    /* Add consistent padding to content */
+    .content-wrapper {
+      padding-left: 16px;
+      padding-right: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    /* Center content with max-width where needed */
+    .max-w-4xl-centered {
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    /* Hero section gradient */
     .hero-gradient {
       background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
     }
+
+    /* Hover effect for product cards */
     .product-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
+
+    /* Active state for hair type buttons */
     .hair-type-btn.active {
       background-color: #3b82f6;
       color: white;
     }
+
+    /* Progress bar animation */
     .progress-bar {
       transition: width 0.5s ease-in-out;
     }
-    .force-full-width {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      overflow-x: hidden;
-    }
-    html, body {
-      margin: 0 !important;
-      padding: 0 !important;
-      overflow-x: hidden;
-      width: 100vw;
-    }
-    .w-full {
+
+    /* Ensure flex layouts use full width */
+    .flex-full {
       width: 100%;
-      max-width: none !important;
-    }
-    section, header, footer {
-      width: 100vw !important;
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .flex.flex-col, .flex.flex-row {
-      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
   </style>
 </head>
 <body class="bg-light font-sans">
   <div class="force-full-width">
     <!-- Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50 w-full">
-      <div class="px-4 py-3 flex justify-between items-center w-full">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div class="content-wrapper flex justify-between items-center py-3">
         <div class="flex items-center space-x-2">
           <i class="fas fa-cut text-primary text-2xl"></i>
           <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
@@ -80,7 +110,7 @@
           <i class="fas fa-bars text-2xl"></i>
         </button>
       </div>
-      <div class="md:hidden hidden bg-white py-2 px-4 shadow-md w-full" id="mobile-menu">
+      <div class="md:hidden hidden bg-white py-2 content-wrapper shadow-md" id="mobile-menu">
         <a href="#causes" class="block py-2 text-dark hover:text-primary transition">Causes</a>
         <a href="#solutions" class="block py-2 text-dark hover:text-primary transition">Solutions</a>
         <a href="#products" class="block py-2 text-dark hover:text-primary transition">Products</a>
@@ -89,8 +119,8 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-gradient text-white py-16 md:py-24 w-full">
-      <div class="w-full flex flex-col md:flex-row items-center px-4">
+    <section class="hero-gradient text-white py-16 md:py-24">
+      <div class="content-wrapper flex-full flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
           <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
           <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
@@ -106,8 +136,8 @@
     </section>
 
     <!-- Hair Loss Stats -->
-    <section class="py-12 bg-white w-full">
-      <div class="px-4">
+    <section class="py-12 bg-white">
+      <div class="content-wrapper">
         <h2 class="text-3xl font-bold text-center text-dark mb-12">Understanding Hair Loss</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-light p-6 rounded-lg shadow text-center">
@@ -130,8 +160,8 @@
     </section>
 
     <!-- Causes Section -->
-    <section id="causes" class="py-16 bg-gray-50 w-full">
-      <div class="px-4">
+    <section id="causes" class="py-16 bg-gray-50">
+      <div class="content-wrapper">
         <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
         <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -182,8 +212,8 @@
     </section>
 
     <!-- Solutions Section -->
-    <section id="solutions" class="py-16 bg-white w-full">
-      <div class="px-4">
+    <section id="solutions" class="py-16 bg-white">
+      <div class="content-wrapper">
         <h2 class="text-3xl font-bold text-center text-dark mb-4">Effective Solutions for Hair Loss</h2>
         <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">From medical treatments to lifestyle changes, explore proven methods to combat hair loss.</p>
         <div class="flex flex-col md:flex-row mb-12 bg-gray-50 rounded-lg overflow-hidden">
@@ -298,8 +328,8 @@
     </section>
 
     <!-- Products Section -->
-    <section id="products" class="py-16 bg-gray-50 w-full">
-      <div class="px-4">
+    <section id="products" class="py-16 bg-gray-50">
+      <div class="content-wrapper">
         <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
         <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -455,8 +485,8 @@
     </section>
 
     <!-- Hair Quiz Section -->
-    <section id="quiz" class="py-16 bg-white w-full">
-      <div class="px-4 max-w-4xl mx-auto">
+    <section id="quiz" class="py-16 bg-white">
+      <div class="content-wrapper max-w-4xl-centered">
         <h2 class="text-3xl font-bold text-center text-dark mb-4">Personalized Hair Loss Solution Finder</h2>
         <p class="text-center text-gray-600 mb-12">Answer a few questions to get customized product recommendations.</p>
         <div class="bg-gray-50 rounded-lg p-8">
@@ -573,8 +603,8 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="py-16 bg-gray-50 w-full">
-      <div class="px-4 max-w-4xl mx-auto">
+    <section id="faq" class="py-16 bg-gray-50">
+      <div class="content-wrapper max-w-4xl-centered">
         <h2 class="text-3xl font-bold text-center text-dark mb-12">Frequently Asked Questions</h2>
         <div class="space-y-4">
           <div class="bg-white rounded-lg shadow overflow-hidden">
@@ -687,8 +717,8 @@
     </section>
 
     <!-- Newsletter -->
-    <section class="py-12 bg-primary text-white w-full">
-      <div class="px-4 max-w-4xl mx-auto text-center">
+    <section class="py-12 bg-primary text-white">
+      <div class="content-wrapper max-w-4xl-centered text-center">
         <h2 class="text-3xl font-bold mb-4">Stay Updated on Hair Loss Solutions</h2>
         <p class="text-xl mb-8">Subscribe to receive the latest research, product reviews, and exclusive discounts.</p>
         <div class="flex flex-col sm:flex-row max-w-md mx-auto sm:max-w-xl">
@@ -700,8 +730,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-12 w-full">
-      <div class="px-4">
+    <footer class="bg-dark text-white py-12">
+      <div class="content-wrapper">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div class="flex items-center space-x-2 mb-4">
