@@ -180,7 +180,7 @@ section, header, footer {
 
     <!-- Hair Loss Stats -->
     <section class="py-12 bg-white">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-0">
             <h2 class="text-3xl font-bold text-center text-dark mb-12">Understanding Hair Loss</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-light p-6 rounded-lg shadow text-center">
@@ -205,7 +205,7 @@ section, header, footer {
 
     <!-- Causes Section -->
     <section id="causes" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-0">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Common Causes of Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">Understanding the root cause is the first step toward effective treatment.</p>
            
@@ -259,7 +259,7 @@ section, header, footer {
 
     <!-- Solutions Section -->
     <section id="solutions" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-0">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Effective Solutions for Hair Loss</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">From medical treatments to lifestyle changes, explore proven methods to combat hair loss.</p>
            
@@ -378,7 +378,7 @@ section, header, footer {
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-0">
             <h2 class="text-3xl font-bold text-center text-dark mb-4">Top-Rated Hair Loss Products</h2>
             <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">These Amazon products have helped thousands combat hair loss effectively.</p>
            
@@ -825,7 +825,7 @@ section, header, footer {
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-12">
-        <div class="container mx-auto px-4">
+        <div class="w-full px-0">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <div class="flex items-center space-x-2 mb-4">
