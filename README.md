@@ -29,10 +29,10 @@
 
     /* Center content while keeping responsiveness */
    .content-wrapper {
-  width: 100vw; /* Ensures full width */
+  width: 10px; /* Ensures full width */
   margin: 0;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 0px;
+  padding-right: 0px;
   box-sizing: border-box;
 }
 
