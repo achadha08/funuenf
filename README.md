@@ -27,11 +27,12 @@
       width: 10px;
     }
 
-    .content-wrapper {
-   width: 10px; /* Ensures full width */
+    /* Center content while keeping responsiveness */
+   .content-wrapper {
+  width: 100vw; /* Ensures full width */
   margin: 0;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
   box-sizing: border-box;
 }
 
@@ -74,6 +75,7 @@
         </button>
       </div>
     </header>
+
     <!-- Hero Section -->
     <section class="hero-gradient text-white py-16 md:py-24">
       <div class="content-wrapper flex-full flex-col md:flex-row items-center">
