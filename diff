@@ -28,11 +28,9 @@
       overflow-x: hidden;
     }
 
-    /* Center content while keeping responsiveness */
     .content-wrapper {
-  width: 100vw; /* Ensures full screen width */
-  max-width: none; /* Prevents unwanted restrictions */
-  margin: 0 auto; /* Centers content without limiting width */
+  width: 100vw;
+  margin: 0;
   padding-left: 16px;
   padding-right: 16px;
   box-sizing: border-box;
