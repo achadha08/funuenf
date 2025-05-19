@@ -53,7 +53,92 @@
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
 
-  </style>
+<style>
+  /* Hero Section Styling */
+  .hero-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
+    padding: 50px 5%;
+    color: white;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hero-text {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .hero-text p {
+    margin: 15px 0;
+    font-size: 1.3em;
+  }
+
+  .hero-buttons {
+    margin-top: 20px;
+  }
+
+  .hero-buttons a {
+    display: inline-block;
+    background-color: white;
+    color: #3b82f6;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .hero-buttons a:hover {
+    background-color: #f0f0f0;
+  }
+
+  .hero-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero-text, .hero-image {
+      max-width: 100%;
+    }
+
+    .hero-image {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+</style>
 </head>
 <body class="bg-light font-sans">
   <div class="content-wrapper">
@@ -77,18 +162,18 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-gradient text-white py-16 md:py-24">
-      <div class="content-wrapper flex-full flex-col md:flex-row items-center">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-          <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
-          <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
-          <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
-            <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
+    <section class="hero-gradient">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Maximize Your Hair Growth Potential</h1>
+          <p>Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
+          <div class="hero-buttons">
+            <a href="#products">Shop Recommended Products</a>
+            <a href="#quiz">Take Hair Quiz</a>
           </div>
         </div>
-        <div class="md:w-1/2 flex justify-center">
-          <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=" alt="Happy couple" class="max-w-full h-auto">
+        <div class="hero-image">
+          <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=" alt="Happy couple">
         </div>
       </div>
     </section>
