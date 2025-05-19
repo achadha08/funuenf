@@ -29,7 +29,7 @@
 
     /* Center content while keeping responsiveness */
    .content-wrapper {
-  width: 10px; /* Ensures full width */
+  width: 0px; /* Ensures full width */
   margin: 0;
   padding-left: 0px;
   padding-right: 0px;
