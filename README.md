@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HairMaxx Solutions - Full Width</title>
+  <title>HairMaxx Solutions - Centered</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
@@ -28,36 +28,20 @@
       overflow-x: hidden;
     }
 
-    /* Force full-width behavior */
-    .force-full-width {
-      width: 100vw;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-
-    /* Ensure all sections and wrappers span full width */
-    section, header, footer, .w-full {
-      width: 100vw !important;
-      max-width: none !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-
-    /* Add consistent padding to content */
+    /* Center content while keeping responsiveness */
     .content-wrapper {
+      max-width: 1200px; /* Adjust width as needed */
+      margin-left: auto;
+      margin-right: auto;
       padding-left: 16px;
       padding-right: 16px;
-      width: 100%;
       box-sizing: border-box;
     }
 
-    /* Center content with max-width where needed */
-    .max-w-4xl-centered {
-      max-width: 1024px;
-      margin-left: auto;
-      margin-right: auto;
+    /* Ensure all sections, headers, and footers do not exceed viewport width */
+    section, header, footer {
       width: 100%;
+      max-width: 100%;
     }
 
     /* Hero section gradient */
@@ -71,27 +55,10 @@
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
 
-    /* Active state for hair type buttons */
-    .hair-type-btn.active {
-      background-color: #3b82f6;
-      color: white;
-    }
-
-    /* Progress bar animation */
-    .progress-bar {
-      transition: width 0.5s ease-in-out;
-    }
-
-    /* Ensure flex layouts use full width */
-    .flex-full {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
   </style>
 </head>
 <body class="bg-light font-sans">
-  <div class="force-full-width">
+  <div class="content-wrapper">
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
       <div class="content-wrapper flex justify-between items-center py-3">
@@ -108,12 +75,6 @@
         <button class="md:hidden text-dark" id="menu-toggle">
           <i class="fas fa-bars text-2xl"></i>
         </button>
-      </div>
-      <div class="md:hidden hidden bg-white py-2 content-wrapper shadow-md" id="mobile-menu">
-        <a href="#causes" class="block py-2 text-dark hover:text-primary transition">Causes</a>
-        <a href="#solutions" class="block py-2 text-dark hover:text-primary transition">Solutions</a>
-        <a href="#products" class="block py-2 text-dark hover:text-primary transition">Products</a>
-        <a href="#faq" class="block py-2 text-dark hover:text-primary transition">FAQ</a>
       </div>
     </header>
 
