@@ -24,7 +24,7 @@
     html, body {
       margin: 0 !important;
       padding: 0 !important;
-      width: 10px;
+      width: 0px;
     }
 
     /* Center content while keeping responsiveness */
