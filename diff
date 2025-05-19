@@ -28,10 +28,10 @@
     }
 
     .content-wrapper {
-  width: 100vw;
+   width: 10px; /* Ensures full width */
   margin: 0;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
   box-sizing: border-box;
 }
 
