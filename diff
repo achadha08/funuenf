@@ -2,12 +2,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HairX Solutions - Centered</title>
+  <title>HairMaxx Solutions - Centered</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
     tailwind.config = {
-      theme: {f
+      theme: {
         extend: {
           colors: {
             primary: '#3b82f6',
@@ -28,11 +28,11 @@
     }
 
     /* Center content while keeping responsiveness */
-.content-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+   .content-wrapper {
+  width: 100vw; /* Ensures full width */
+  margin: 0;
+  padding-left: 32px;
+  padding-right: 32px;
   box-sizing: border-box;
 }
 
@@ -147,7 +147,7 @@
       <div class="content-wrapper flex justify-between items-center py-3">
         <div class="flex items-center space-x-2">
           <i class="fas fa-cut text-primary text-2xl"></i>
-          <h1 class="text-xl font-bold text-dark">HairX <span class="text-primary">Solutions</span></h1>
+          <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
         </div>
         <nav class="hidden md:flex space-x-8">
           <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
@@ -378,7 +378,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://m.media-amazon.com/images/I/71DCVRx913L._SL1500_.jpg" alt="Minoxidil Foam" class="w-full h-64 object-contain">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">ESSENTIAL OIL</div>
             </div>
             <div class="p-6">
@@ -498,7 +498,7 @@
           </div>
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://m.media-amazon.com/images/I/51pPLyrLT1L._AC_SL1500_.jpg" class="w-full h-64 object-contain">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">TOOL</div>
             </div>
             <div class="p-6">
@@ -779,7 +779,7 @@
           <div>
             <div class="flex items-center space-x-2 mb-4">
               <i class="fas fa-cut text-primary text-2xl"></i>
-              <h3 class="text-xl font-bold">HairX<span class="text-primary">Solutions</span></h3>
+              <h3 class="text-xl font-bold">HairMaxx<span class="text-primary">Solutions</span></h3>
             </div>
             <p class="text-gray-400">Providing science-backed information and product recommendations to help you combat hair loss effectively.</p>
           </div>
@@ -813,7 +813,7 @@
           </div>
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p class="text-gray-400 mb-4 md:mb-0">© 2025 HairX Solutions. All rights reserved.</p>
+          <p class="text-gray-400 mb-4 md:mb-0">© 2025 HairMaxx Solutions. All rights reserved.</p>
           <div class="flex space-x-6">
             <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
             <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
