@@ -144,38 +144,44 @@
   <div class="content-wrapper">
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
-      <div class="content-wrapper flex justify-between items-center py-3">
-        <div class="flex items-center space-x-2">
-          <i class="fas fa-cut text-primary text-2xl"></i>
-          <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-cut text-primary text-2xl"></i>
+                <h1 class="text-xl font-bold text-dark">HairMaxx <span class="text-primary">Solutions</span></h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
+                <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
+                <a href="#products" class="text-dark hover:text-primary transition">Products</a>
+                <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
+            </nav>
+            <button class="md:hidden text-dark" id="menu-toggle">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
         </div>
-        <nav class="hidden md:flex space-x-8">
-          <a href="#causes" class="text-dark hover:text-primary transition">Causes</a>
-          <a href="#solutions" class="text-dark hover:text-primary transition">Solutions</a>
-          <a href="#products" class="text-dark hover:text-primary transition">Products</a>
-          <a href="#faq" class="text-dark hover:text-primary transition">FAQ</a>
-        </nav>
-        <button class="md:hidden text-dark" id="menu-toggle">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-      </div>
+        <div class="md:hidden hidden bg-white py-2 px-4 shadow-md" id="mobile-menu">
+            <a href="#causes" class="block py-2 text-dark hover:text-primary transition">Causes</a>
+            <a href="#solutions" class="block py-2 text-dark hover:text-primary transition">Solutions</a>
+            <a href="#products" class="block py-2 text-dark hover:text-primary transition">Products</a>
+            <a href="#faq" class="block py-2 text-dark hover:text-primary transition">FAQ</a>
+        </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-gradient">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h1>Maximize Your Hair Growth Potential</h1>
-          <p>Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
-          <div class="hero-buttons">
-            <a href="#products">Shop Recommended Products</a>
-            <a href="#quiz">Take Hair Quiz</a>
-          </div>
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Maximize Your Hair Growth Potential</h1>
+                <p class="text-xl mb-8">Discover science-backed solutions and top-rated products to combat hair loss effectively.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#products" class="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition text-center">Shop Recommended Products</a>
+                    <a href="#quiz" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-primary transition text-center">Take Hair Quiz</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=">
+            </div>
         </div>
-        <div class="hero-image">
-          <img src="https://media.istockphoto.com/id/1368004438/photo/shot-of-a-couple-enjoying-a-day-at-the-beach.jpg?s=612x612&w=0&k=20&c=hMi6N-u6baFHC-P8C-8X_5iFshdPPicx7BCrBGM8ARc=" alt="Happy couple">
-        </div>
-      </div>
     </section>
 
     <!-- Hair Loss Stats -->
@@ -378,7 +384,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://m.media-amazon.com/images/I/71DCVRx913L._SL1500_.jpg" alt="Minoxidil Foam" class="w-full h-64 object-contain">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn9GcTYz5U8NZG_guR-cwzwm63Dzxw7ornk2-zCpBpxrWOOxFBr8QgNTCTJmD-A-uklFieU9jLZ8UX5Fe31vxtbc061ncXRK3YHKSkZ7TpfQHjxXM3ccrLzUS2JIF8sziiaq5rzh1kA_m415gM&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">ESSENTIAL OIL</div>
             </div>
             <div class="p-6">
@@ -498,7 +504,7 @@
           </div>
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://m.media-amazon.com/images/I/51pPLyrLT1L._AC_SL1500_.jpg" alt="Scalp Massager" class="w-full h-64 object-contain">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn9GcSpqFUGAFomdR-2deE0Fo7YBHTUV0itbx3aCMfLZCNmDCPrnQ7eJaRzbXW81iAX1y-WGH8bjhYsQJr5NWLwsUSD1HJWuvVVGwbSICvg9nP4WGZwUozwUe6OK_J5GGxLqnSwT9tuUx6WCg&usqp=CAc" alt="Scalp Massager" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">TOOL</div>
             </div>
             <div class="p-6">
