@@ -378,7 +378,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQDiphabA89zDTTnLpcX3MA6v_L9ImlFZxvOYyheyzJ3087me4lPekobOE0ZVTBskD2MxfoQQuLwa9qzVNxFZdAq8R42bg6b_prk-SbPOP1E4QejOoBYrLfu5s0AIWc8nqDHvFKgAs&usqp=CAc" alt="Minoxidil Foam" class="w-full h-64 object-contain">
+              <img src="https://m.media-amazon.com/images/I/71DCVRx913L._SL1500_.jpg" alt="Minoxidil Foam" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">ESSENTIAL OIL</div>
             </div>
             <div class="p-6">
