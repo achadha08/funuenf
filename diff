@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
     tailwind.config = {
-      theme: {
+      theme: {f
         extend: {
           colors: {
             primary: '#3b82f6',
@@ -28,11 +28,11 @@
     }
 
     /* Center content while keeping responsiveness */
-   .content-wrapper {
-  width: 100vw; /* Ensures full width */
-  margin: 0;
-  padding-left: 32px;
-  padding-right: 32px;
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
   box-sizing: border-box;
 }
 
