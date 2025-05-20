@@ -1,43 +1,147 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HairMaxx Solutions - Fight Hair Loss Effectively</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3b82f6',
-                        secondary: '#10b981',
-                        dark: '#1e293b',
-                        light: '#f8fafc',
-                    }
-                }
-            }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HairMaxx Solutions - Centered</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3b82f6',
+            secondary: '#10b981',
+            dark: '#1e293b',
+            light: '#f8fafc'
+          }
         }
-    </script>
-    <style>
-        .hero-gradient {
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
-        }
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-        .hair-type-btn.active {
-            background-color: #3b82f6;
-            color: white;
-        }
-        .progress-bar {
-            transition: width 0.5s ease-in-out;
-        }
-    </style>
+      }
+    };
+  </script>
+  <style>
+    /* Reset default margins and paddings */
+    html, body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 10px;
+    }
+
+    /* Center content while keeping responsiveness */
+   .content-wrapper {
+  width: 100vw; /* Ensures full width */
+  margin: 0;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+
+    /* Ensure all sections, headers, and footers do not exceed viewport width */
+    section, header, footer {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* Hero section gradient */
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
+    }
+
+    /* Hover effect for product cards */
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+<style>
+  /* Hero Section Styling */
+  .hero-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(16, 185, 129, 0.8) 100%);
+    padding: 50px 5%;
+    color: white;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hero-text {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .hero-text p {
+    margin: 15px 0;
+    font-size: 1.3em;
+  }
+
+  .hero-buttons {
+    margin-top: 20px;
+  }
+
+  .hero-buttons a {
+    display: inline-block;
+    background-color: white;
+    color: #3b82f6;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .hero-buttons a:hover {
+    background-color: #f0f0f0;
+  }
+
+  .hero-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero-text, .hero-image {
+      max-width: 100%;
+    }
+
+    .hero-image {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+</style>
 </head>
 <body class="bg-light font-sans">
+  <div class="content-wrapper">
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
