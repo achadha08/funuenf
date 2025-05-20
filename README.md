@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
     tailwind.config = {
-      theme: {f
+      theme: {
         extend: {
           colors: {
             primary: '#3b82f6',
@@ -28,11 +28,11 @@
     }
 
     /* Center content while keeping responsiveness */
-.content-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+   .content-wrapper {
+  width: 100vw; /* Ensures full width */
+  margin: 0;
+  padding-left: 32px;
+  padding-right: 32px;
   box-sizing: border-box;
 }
 
@@ -498,7 +498,7 @@
           </div>
           <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition duration-300">
             <div class="relative">
-              <img src="https://m.media-amazon.com/images/I/51pPLyrLT1L._AC_SL1500_.jpg" class="w-full h-64 object-contain">
+              <img src="https://m.media-amazon.com/images/I/51pPLyrLT1L._AC_SL1500_.jpg" alt="Scalp Massager" class="w-full h-64 object-contain">
               <div class="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-2 py-1 rounded">TOOL</div>
             </div>
             <div class="p-6">
