@@ -65,7 +65,7 @@
 <body>
     <div class="form-container">
         <h2>Contact Us</h2>
-        <form id="contactForm" action="https://formsubmit.co/achadha08@gmail.com" method="POST" enctype="multipart/form-data">
+        <form id="contactForm" action="https://formsubmit.co/35afc16311b3bde5dea6876d5379caca" method="POST" enctype="multipart/form-data">
             <!-- Honeypot field to trap spambots -->
             <input type="text" name="_honey" class="hidden">
             <!-- Custom email subject -->
